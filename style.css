@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+img#hikiimg {
+    height: 40px;
+    width: 104px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+nav.navbar {
+    height: 80px;
+    width: 100%;
+    background: #559596;
+}
+
+body {
+    background: rgb(61, 59, 59);
+}
+
+nav ul {
+    float: right ;
+    margin-right: 200px ;
+    margin-top: 26px;
+    font-size: 25px;
+    word-spacing: 50px;
+}
+
+nav li{
+    display: inline-flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li a:link {
+    color: honeydew;
+}
+
+li a:visited {
+    color: honeydew;
+}
+
+li a:hover {
+    color: rgb(219, 219, 219);
+}
+
+li a:active {
+    color: grey;
+}
+
+img#hikiimg2 {
+    height: 220px;
+    width: 220px;
+}
+
+div.icon {
+    text-align: center;
+}
+
+nav img {
+    flex: auto;
+}
+
+div.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    color: honeydew;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper>*{
+    padding: 10px;
+    margin: 10 px;
+    flex: 1 100%;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+
+.main {
+   font-size: 25px;
+   color: rgb(230, 223, 223);
+}
+
+.header {
+    font-size: 22px;
+    color: #64d4d6;
+}
+
+h1#commandlist {
+    text-decoration: underline;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+
+/*div.tablediv {
+
+}*/
+
+.table thead tr {
+    background-color: rgb(97, 185, 177);
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+}
+
+.table tbody tr {
+    background-color: rgb(37, 37, 37);
+    border-bottom: 1px solid rgb(63, 62, 62);
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: .7px solid rgb(97, 185, 177);
+}
+
+.btn {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button {
+    border: 1px solid rgb(97, 185, 177);
+    background: rgb(41, 40, 40);
+    color: rgb(97, 185, 177);
+    padding: 10px 20px;
+    font-size: 35px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.button:hover{
+    color: rgb(111, 223, 243);
+}
+
+.tablediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
